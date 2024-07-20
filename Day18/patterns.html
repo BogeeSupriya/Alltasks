@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" style="background-color: rgb(203, 183, 211);">
+       
+        <center>
+            <h1>Registration Form</h1>
+            <label for="name">User name:</label>
+            <input type="type" id="name" name="username"><br><br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}"
+             title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"> <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="mail"
+            pattern="[a-z0-9_.]+@[a-z]+\.[a-z]{2-4}" required> <br><br>
+            <label for="datteofbirth">Date of Birth</label>
+            <input type="dateofbirth" id="dateofbirth name=DOB"
+            pattern="\d{4}-\d{2}-\d{2}"> <br><br>
+            <input type="submit">
+        </center>
+    </form>
+</body>
+</html>
